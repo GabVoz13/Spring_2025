@@ -1,0 +1,11 @@
+
+
+Find Numbered lines "^\s*([IVXLCDM]+)\s*$"
+Replace "<sonnet="$1">"
+
+Wrap Lines
+Find "^\s*(.*)$"
+Replace "<line>$1</line>"
+
+
+
