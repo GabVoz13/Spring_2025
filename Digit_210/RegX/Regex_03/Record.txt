@@ -1,0 +1,39 @@
+Find `&` and replace with `&amp;`
+No string found
+
+Find `<` and replace with `&lt;`
+No string found
+
+Find `>` and replace with `&gt;`
+No String found
+
+Remove blank lines
+Find `\n{3,}`
+Replace `\n\n`
+37 Matches
+
+Paragraph markings
+Find `\n\n`
+Replace `</p>\n<p>
+932 Matches
+
+Chapter Titles
+Find `^<p>([IVXLC]+\..+)</p>$`
+Replace `<title>\1</title>
+
+Wrap chapters
+Find `(<title>.+?</title>)`
+Replace `</chapter>\n<chapter>\n\1`
+29 Matches
+
+Pick out quote lines
+Find `"([^"]+)"`
+Replace `<quote>\1</quote>`
+902 Matches
+
+Save file as XML 
+reopen in Oxygen
+Made manual adjustments like fixing end tags and removing unecessary tags
+added root tag
+
+Green Square.
